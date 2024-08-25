@@ -1,6 +1,5 @@
 import { buttonVariants } from "@/components/ui/button";
 import { page_routes } from "@/lib/routes-config";
-import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import Link from "next/link";
 import Particles from "../components/particles";
 
@@ -16,7 +15,7 @@ export default function Home() {
       </h1>
       <h1 className="text-3xl font-bold mb-4 sm:text-7xl font-display">PVP</h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground text">
-        A public Origins SMP Server, Choose acroos many diffrent powers ranging
+        A public Origins SMP Server, Choose across many different powers ranging
         from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties
         and much more<br></br>
       </p>
