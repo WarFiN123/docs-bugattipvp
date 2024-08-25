@@ -14,11 +14,11 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description:
-    "A public Origins SMP Server, Choose acroos many diffrent powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more",
+    "A public Origins SMP Server, Choose across many different powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more",
   openGraph: {
     title: "TranslucenceV2",
     description:
-      "A public Origins SMP Server, Choose acroos many diffrent powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more",
+      "A public Origins SMP Server, Choose across many different powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more",
     url: "https://BugattiPVP.vercel.app",
     siteName: "Bugatti PVP",
     images: [

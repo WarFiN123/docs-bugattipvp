@@ -1,5 +1,5 @@
 import { ModeToggle } from "@/components/theme-toggle";
-import { SiDiscord, SiGithub } from "react-icons/si";
+import { SiDiscord } from "react-icons/si";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import Search from "./search";

@@ -33,7 +33,7 @@ export function FooterButtons() {
   return (
     <>
       <Link
-        href="https://ko-fi.com/warfin"
+        href="https://ko-fi.com/bugattipvp"
         className={buttonVariants({ variant: "outline", size: "sm" })}
       >
         <SiKofi className="h-4 w-4 mr-2 text-red-600 fill-current" />
