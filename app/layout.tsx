@@ -13,10 +13,12 @@ export const metadata: Metadata = {
     default: "Bugatti PVP",
     template: "%s",
   },
-  description: "A public Origins SMP Server, Choose acroos many diffrent powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more",
+  description:
+    "A public Origins SMP Server, Choose acroos many diffrent powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more",
   openGraph: {
     title: "TranslucenceV2",
-    description: "A public Origins SMP Server, Choose acroos many diffrent powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more",
+    description:
+      "A public Origins SMP Server, Choose acroos many diffrent powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more",
     url: "https://BugattiPVP.vercel.app",
     siteName: "Bugatti PVP",
     images: [
@@ -60,7 +62,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning className={[Heroeau.variable].join(" ")}>
+    <html
+      lang="en"
+      suppressHydrationWarning
+      className={[Heroeau.variable].join(" ")}
+    >
       <body
         className={`${GeistSans.variable} ${GeistMono.variable} font-regular`}
         suppressHydrationWarning

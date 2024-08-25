@@ -19,10 +19,14 @@ export default function Home() {
         Follow along on GitHub{" "}
         <FaArrowUpRightFromSquare className="w-4 h-4 font-extrabold" />
       </Link>
-      <h1 className="text-3xl font-bold mb-4 sm:text-7xl font-display">Bugatti</h1>
+      <h1 className="text-3xl font-bold mb-4 sm:text-7xl font-display">
+        Bugatti
+      </h1>
       <h1 className="text-3xl font-bold mb-4 sm:text-7xl font-display">PVP</h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground text">
-      A public Origins SMP Server, Choose acroos many diffrent powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more<br></br>
+        A public Origins SMP Server, Choose acroos many diffrent powers ranging
+        from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties
+        and much more<br></br>
       </p>
       <div className="flex flex-row items-center gap-5">
         <Link
