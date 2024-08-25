@@ -36,13 +36,7 @@ export function Navbar() {
             <Search />
             <div className="flex">
               <Link
-                href="https://github.com/warfin123/translucencev2"
-                className={buttonVariants({ variant: "ghost", size: "icon" })}
-              >
-                <SiGithub className="h-[1.1rem] w-[1.1rem]" />
-              </Link>
-              <Link
-                href="https://discord.com/invite/t6CKrYvQuE"
+                href="https://discord.gg/ZewyUmtVSS"
                 className={buttonVariants({
                   variant: "ghost",
                   size: "icon",
@@ -61,9 +55,9 @@ export function Navbar() {
 
 export function Logo() {
   return (
-    <Link href="../app/Logo.png" className="flex items-center gap-2.5">
+    <Link href="/" className="flex items-center gap-2.5">
       <img
-        src=""
+        src="https://github.com/WarFiN123/docs-bugattipvp/blob/a31ea6d6c8085d6567f22dd3a8b929fce202c6a7/app/Logo.webp?raw=true"
         className="w-7 h-7 text-muted-foreground fill-current"
         alt="Logo"
       />
