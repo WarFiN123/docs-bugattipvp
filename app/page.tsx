@@ -11,14 +11,6 @@ export default function Home() {
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={100}
       />
-      <Link
-        href="https://github.com/warfin123/translucencev2"
-        target="_blank"
-        className="mb-5 sm:text-lg flex items-center gap-2 underline underline-offset-4"
-      >
-        Follow along on GitHub{" "}
-        <FaArrowUpRightFromSquare className="w-4 h-4 font-extrabold" />
-      </Link>
       <h1 className="text-3xl font-bold mb-4 sm:text-7xl font-display">
         Bugatti
       </h1>
