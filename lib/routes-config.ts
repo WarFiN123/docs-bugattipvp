@@ -26,6 +26,20 @@ export const ROUTES = [
       { title: "Shulk", href: "/shulk" },
     ],
   },
+  {
+    title: "Commands",
+    href: "commands",
+    items: [
+      { title: "Basic Commands", href: "/basic_commands" },
+    ],
+  },
+  {
+    title: "Contribute",
+    href: "contribute",
+    items: [
+      { title: "Contributing", href: "/contributing" },
+    ],
+  }
 ];
 
 export const page_routes = ROUTES.map(({ href, items }) => {
