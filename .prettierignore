@@ -7,3 +7,4 @@ out
 public
 pnpm-lock.yaml
 package-lock.json
+*.mdx
