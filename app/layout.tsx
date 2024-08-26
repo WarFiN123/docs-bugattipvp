@@ -6,11 +6,12 @@ import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import { Footer } from "@/components/footer";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Bugatti PVP",
+    default: "Bugatti PvP",
     template: "%s",
   },
   description:
@@ -19,8 +20,8 @@ export const metadata: Metadata = {
     title: "TranslucenceV2",
     description:
       "A public Origins SMP Server, Choose across many different powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more",
-    url: "https://BugattiPVP.vercel.app",
-    siteName: "Bugatti PVP",
+    url: "https://BugattiPvP.vercel.app",
+    siteName: "Bugatti PvP",
     images: [
       {
         url: "https://images2.imgbox.com/96/e6/BTja0ggL_o.png",
@@ -81,6 +82,7 @@ export default function RootLayout({
           <main className="sm:container mx-auto w-[85vw] h-auto">
             {children}
             <Analytics />
+            <SpeedInsights />
           </main>
           <Footer />
         </ThemeProvider>

@@ -1,5 +1,6 @@
 import { buttonVariants } from "@/components/ui/button";
 import { page_routes } from "@/lib/routes-config";
+import { Heart } from "lucide-react";
 import Link from "next/link";
 import Particles from "../components/particles";
 
@@ -13,7 +14,7 @@ export default function Home() {
       <h1 className="text-3xl font-bold mb-4 sm:text-7xl font-display">
         Bugatti
       </h1>
-      <h1 className="text-3xl font-bold mb-4 sm:text-7xl font-display">PVP</h1>
+      <h1 className="text-3xl font-bold mb-4 sm:text-7xl font-display">PvP</h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground text">
         A public Origins SMP Server, Choose across many different powers ranging
         from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties
@@ -37,6 +38,9 @@ export default function Home() {
           Discord
         </Link>
       </div>
+      <span className="flex flex-row items-center gap-2 text-zinc-400 text-md mt-7 -mb-12 max-[800px]:mb-12">
+        <Heart className="w-4 h-4 mr-1" /> ~ By unt1tle and darkterrer
+      </span>
     </div>
   );
 }

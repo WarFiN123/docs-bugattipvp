@@ -57,11 +57,11 @@ export function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2.5">
       <img
-        src="https://github.com/WarFiN123/docs-bugattipvp/blob/a31ea6d6c8085d6567f22dd3a8b929fce202c6a7/app/Logo.webp?raw=true"
-        className="w-7 h-7 text-muted-foreground fill-current"
+        src="https://github.com/WarFiN123/docs-bugattipvp/blob/950dfa7d9809056683eb8b1486395b7e7230ef26/app/Logo.webp?raw=true"
+        className="w-12 h-12 text-muted-foreground fill-current"
         alt="Logo"
       />
-      <h2 className="text-md font-bold">Bugatti PVP</h2>
+      <h2 className="text-md font-bold">Bugatti PvP</h2>
     </Link>
   );
 }
