@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://github.com/WarFiN123/docs-bugattipvp/blob/505521df7a471293a56aace242f40de80ad44ede/app/opengraph-image.png?raw=true",
-        width: 1920,
-        height: 1080,
+        width: 1200,
+        height: 630,
       },
     ],
     locale: "en_US",
