@@ -32,6 +32,7 @@ export const ROUTES = [
     items: [
       { title: "Basic Commands", href: "/basic_commands" },
       { title: "Auction House", href: "/auction_house" },
+      { title: "Kits", href: "/kits" },
     ],
   },
   {
