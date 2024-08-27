@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "A public Origins SMP Server, Choose across many different powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more",
   openGraph: {
-    title: "TranslucenceV2",
+    title: "Bugatti PvP",
     description:
       "A public Origins SMP Server, Choose across many different powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more",
     url: "https://BugattiPvP.vercel.app",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "TranslucenceV2",
+    title: "Bugatti PvP",
     card: "summary_large_image",
   },
   icons: {
