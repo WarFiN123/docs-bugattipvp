@@ -29,7 +29,10 @@ export const ROUTES = [
   {
     title: "Commands",
     href: "commands",
-    items: [{ title: "Basic Commands", href: "/basic_commands" }],
+    items: [
+      { title: "Basic Commands", href: "/basic_commands" },
+      { title: "Auction House", href: "/auction_house" },
+    ],
   },
   {
     title: "Contribute",
