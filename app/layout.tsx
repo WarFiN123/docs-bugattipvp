@@ -12,7 +12,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: {
     default: "Bugatti PvP",
-    template: "%s",
+    template: "Bugatti PvP - %s",
   },
   description:
     "A public Origins SMP Server, Choose across many different powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "Bugatti PvP",
     description:
       "A public Origins SMP Server, Choose across many different powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more",
-    url: "https://BugattiPvP.vercel.app",
+    url: "https://bugattipvp.vercel.app",
     siteName: "Bugatti PvP",
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
         height: 1080,
       },
     ],
-    locale: "en-US",
+    locale: "en_US",
     type: "website",
   },
   robots: {
@@ -46,6 +46,11 @@ export const metadata: Metadata = {
   twitter: {
     title: "Bugatti PvP",
     card: "summary_large_image",
+    description:
+      "A public Origins SMP Server, Choose across many different powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more",
+    images: [
+      "https://ogcdn.net/2c2c6737-47d4-4459-9969-e711eb48394c/v1/bugattipvp.vercel.app/Bugatti%20PvP/A%20public%20Origins%20SMP%20Server%2C%20Choose%20across%20many%20different%20powers%20ranging%20from%20spiders%20to%20vampire%2C%20Grind%2C%20Grow%2C%20Fight.%20Clan%20wars%2C%20Quests%2C%20Bounties%20and%20much%20more/https%3A%2F%2Fopengraph.b-cdn.net%2Fproduction%2Fimages%2F606bc2e9-95c6-42f4-a027-7ba68284560f.jpg%3Ftoken%3DuLsu2DuOU8PhO2Z0qosbmubqWPjmYRJ3nU_07QSVn0I%26height%3D675%26width%3D1200%26expires%3D33260694185/og.png",
+    ],
   },
   icons: {
     shortcut: "/favicon.ico",
