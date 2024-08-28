@@ -1,4 +1,3 @@
-import { ModeToggle } from "@/components/theme-toggle";
 import { SiDiscord } from "react-icons/si";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
@@ -44,7 +43,6 @@ export function Navbar() {
               >
                 <SiDiscord className="h-[1.1rem] w-[1.1rem]" />
               </Link>
-              <ModeToggle />
             </div>
           </div>
         </div>
