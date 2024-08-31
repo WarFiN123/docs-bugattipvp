@@ -10,10 +10,11 @@ export const ROUTES = [
     ],
   },
   {
-    title: "Commands",
-    href: "commands",
+    title: "Usage",
+    href: "usage",
     items: [
       { title: "Basic Commands", href: "/basic_commands" },
+      { title: "PvP", href: "/pvp" },
       { title: "Auction House", href: "/auction_house" },
       { title: "Kits", href: "/kits" },
     ],
