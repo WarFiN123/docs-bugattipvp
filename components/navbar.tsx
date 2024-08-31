@@ -1,5 +1,5 @@
 import { SiDiscord } from "react-icons/si";
-import { Image } from 'lucide-react';
+import { Image } from "lucide-react";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import Search from "./search";
@@ -35,7 +35,7 @@ export function Navbar() {
           <div className="flex items-center gap-2">
             <Search />
             <div className="flex">
-            <Link
+              <Link
                 href="https://gallery-bugattipvp.vercel.app"
                 className={buttonVariants({
                   variant: "ghost",
@@ -43,7 +43,7 @@ export function Navbar() {
                 })}
               >
                 <Image className="h-[1.1rem] w-[1.1rem]" />
-              </Link>   
+              </Link>
               <Link
                 href="https://discord.gg/ZewyUmtVSS"
                 className={buttonVariants({
