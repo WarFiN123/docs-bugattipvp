@@ -22,9 +22,9 @@ export default function Failure({
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={100}
       />
-      <div>
-        <h2 className="text-5xl font-bold">Oops!</h2>
-        <p className="text-muted-foreground">Something went wrong!</p>
+      <div className="flex flex-col gap-2 text-center">
+        <h2 className="text-9xl font-bold">Oops!</h2>
+        <p className="text-muted-foreground text-2xl">Something went wrong!</p>
       </div>
       <Button
         onClick={
