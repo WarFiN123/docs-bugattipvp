@@ -15,11 +15,11 @@ export const metadata: Metadata = {
     template: "Bugatti PvP - %s",
   },
   description:
-    "A public Origins SMP Server, Choose across many different powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more",
+    "Experience the ultimate Minecraft adventure on our public Origins SMP server! With a vast array of unique powers to choose from, including spiders, vampires, and more, you'll embark on a journey of growth, combat, and exploration. Engage in epic clan wars, complete thrilling quests, and claim coveted bounties in a world of endless possibility",
   openGraph: {
     title: "Bugatti PvP",
     description:
-      "A public Origins SMP Server, Choose across many different powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more",
+      "Experience the ultimate Minecraft adventure on our public Origins SMP server! With a vast array of unique powers to choose from, including spiders, vampires, and more, you'll embark on a journey of growth, combat, and exploration. Engage in epic clan wars, complete thrilling quests, and claim coveted bounties in a world of endless possibility",
     url: "https://bugattipvp.vercel.app",
     siteName: "Bugatti PvP",
     images: [
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title: "Bugatti PvP",
     card: "summary_large_image",
     description:
-      "A public Origins SMP Server, Choose across many different powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more",
+      "Experience the ultimate Minecraft adventure on our public Origins SMP server! With a vast array of unique powers to choose from, including spiders, vampires, and more, you'll embark on a journey of growth, combat, and exploration. Engage in epic clan wars, complete thrilling quests, and claim coveted bounties in a world of endless possibility",
     images: [
       "https://github.com/WarFiN123/docs-bugattipvp/blob/505521df7a471293a56aace242f40de80ad44ede/app/opengraph-image.png?raw=true",
     ],

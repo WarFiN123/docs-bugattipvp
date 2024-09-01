@@ -29,7 +29,7 @@ export default function Home() {
           PvP
         </h1>
         <p className="mb-8 sm:text-xl max-w-[800px]">
-        Experience the ultimate Minecraft adventure on our public Origins SMP server! With a vast array of unique powers to choose from, including spiders, vampires, and more, you&apos;ll embark on a journey of growth, combat, and exploration. Engage in epic clan wars, complete thrilling quests, and claim coveted bounties in a world of endless possibility.
+        Experience the ultimate Minecraft adventure on our public Origins SMP server! With a vast array of unique powers to choose from, including spiders, vampires, and more, you&apos;ll embark on a journey of growth, combat, and exploration. Engage in epic clan wars, complete thrilling quests, and claim coveted bounties in a world of endless possibility
           <br></br>
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-5">
