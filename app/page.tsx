@@ -3,7 +3,6 @@
 import { buttonVariants } from "@/components/ui/button";
 import { page_routes } from "@/lib/routes-config";
 import { ShaderGradientCanvas, ShaderGradient } from "shadergradient";
-import { Canvas } from '@react-three/fiber'
 import { SiDiscord } from "react-icons/si";
 import { Preload } from '@react-three/drei'
 import { Heart, Gamepad2 } from "lucide-react";
