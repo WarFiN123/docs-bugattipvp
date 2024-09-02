@@ -116,7 +116,7 @@ pre > code {
 .annotation,
 .boolean,
 .number {
-  color: hsl(0, 0%, 29%);
+  color: hsl(0, 0%, 71%);
 }
 
 .dark .string,
@@ -140,7 +140,7 @@ pre > code {
 }
 
 .attr-name {
-  color: #414141;
+  color: #cacaca;
 }
 
 .dark .attr-name {
