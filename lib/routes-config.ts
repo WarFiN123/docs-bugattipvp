@@ -14,9 +14,10 @@ export const ROUTES = [
     href: "usage",
     items: [
       { title: "Basic Commands", href: "/basic_commands" },
-      { title: "PvP", href: "/pvp" },
       { title: "Auction House", href: "/auction_house" },
+      { title: "Clans", href: "/clans" },
       { title: "Kits", href: "/kits" },
+      { title: "PvP", href: "/pvp" },
     ],
   },
   {
