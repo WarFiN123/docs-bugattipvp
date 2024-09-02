@@ -95,21 +95,10 @@ pre > code {
   @apply bg-neutral-200/90;
 }
 
-.punctuation {
-  color: gray;
-}
-
-.comment {
-  color: gray;
-}
-
 .keyword {
-  color: rgb(255, 50, 115);
+  color: hsla(341, 90%, 67%, 1);
 }
 
-.function {
-  color: hsla(210, 100%, 66%, 1);
-}
 
 .string,
 .constant,
@@ -128,14 +117,6 @@ pre > code {
 }
 
 .dark .keyword {
-  color: hsla(341, 90%, 67%, 1);
-}
-
-.attr-value {
-  color: hsla(131, 43%, 57%, 1);
-}
-
-.tag {
   color: hsla(341, 90%, 67%, 1);
 }
 
