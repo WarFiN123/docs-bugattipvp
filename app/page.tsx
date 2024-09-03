@@ -4,7 +4,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { page_routes } from "@/lib/routes-config";
 import { ShaderGradientCanvas, ShaderGradient } from "shadergradient";
 import { SiDiscord } from "react-icons/si";
-import { Preload } from '@react-three/drei'
+import { Preload } from "@react-three/drei";
 import { Heart, Gamepad2 } from "lucide-react";
 import Link from "next/link";
 
@@ -12,10 +12,15 @@ export default function Home() {
   return (
     <div className="relative flex sm:min-h-[91vh] min-h-[88vh] flex-col items-center justify-center text-center px-2 py-8">
       <ShaderGradientCanvas
-      pointerEvents="none"
-      eventPrefix="client"
-      className="pointer-events-none"
-        style={{ position: "absolute", PointerEvents: "none", top: 0, zIndex: "-20" }}
+        pointerEvents="none"
+        eventPrefix="client"
+        className="pointer-events-none"
+        style={{
+          position: "absolute",
+          PointerEvents: "none",
+          top: 0,
+          zIndex: "-20",
+        }}
       >
         <Preload all />
         <ShaderGradient
@@ -59,7 +64,12 @@ export default function Home() {
           PvP
         </h1>
         <p className="mb-8 sm:text-xl max-w-[800px]">
-        Experience the ultimate Minecraft adventure on our public Origins SMP server! With a vast array of unique powers to choose from, including spiders, vampires, and more, you&apos;ll embark on a journey of growth, combat, and exploration. Engage in epic clan wars, complete thrilling quests, and claim coveted bounties in a world of endless possibility
+          Experience the ultimate Minecraft adventure on our public Origins SMP
+          server! With a vast array of unique powers to choose from, including
+          spiders, vampires, and more, you&apos;ll embark on a journey of
+          growth, combat, and exploration. Engage in epic clan wars, complete
+          thrilling quests, and claim coveted bounties in a world of endless
+          possibility
           <br></br>
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-5">
