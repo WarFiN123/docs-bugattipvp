@@ -33,11 +33,11 @@ export function Footer() {
 export function FooterButtons() {
   return (
     <>
-    <Link
+      <Link
         href="https://gallery-bugattipvp.vercel.app/"
         className={buttonVariants({ variant: "outline", size: "sm" })}
       >
-        <Images className="h-4 w-4 mr-2 text-red-600 fill-current" />
+        <Images className="h-4 w-4 mr-2 text-yellow-600 fill-current" />
         Gallery
       </Link>
       <Link
@@ -47,7 +47,6 @@ export function FooterButtons() {
         <SiKofi className="h-4 w-4 mr-2 text-red-600 fill-current" />
         Donate
       </Link>
-      
     </>
   );
 }
