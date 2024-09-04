@@ -2,6 +2,7 @@ import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import { ImInfo } from "react-icons/im";
 import { SiKofi } from "react-icons/si";
+import { Images } from "lucide-react";
 
 export function Footer() {
   return (
@@ -32,6 +33,13 @@ export function Footer() {
 export function FooterButtons() {
   return (
     <>
+      <Link
+        href="https://gallery-bugattipvp.vercel.app/"
+        className={buttonVariants({ variant: "outline", size: "sm" })}
+      >
+        <Images className="h-4 w-4 mr-2 text-yellow-600 fill-current" />
+        Gallery
+      </Link>
       <Link
         href="https://ko-fi.com/bugattipvp"
         className={buttonVariants({ variant: "outline", size: "sm" })}

@@ -12,24 +12,24 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: {
     default: "Bugatti PvP",
-    template: "%s",
+    template: "Bugatti PvP - %s",
   },
   description:
-    "A public Origins SMP Server, Choose across many different powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more",
+    "Experience the ultimate Minecraft adventure on our public Origins SMP server! With a vast array of unique powers to choose from, including spiders, vampires, and more, you'll embark on a journey of growth, combat, and exploration. Engage in epic clan wars, complete thrilling quests, and claim coveted bounties in a world of endless possibility",
   openGraph: {
-    title: "TranslucenceV2",
+    title: "Bugatti PvP",
     description:
-      "A public Origins SMP Server, Choose across many different powers ranging from spiders to vampire, Grind, Grow, Fight. Clan wars, Quests, Bounties and much more",
-    url: "https://BugattiPvP.vercel.app",
+      "Experience the ultimate Minecraft adventure on our public Origins SMP server! With a vast array of unique powers to choose from, including spiders, vampires, and more, you'll embark on a journey of growth, combat, and exploration. Engage in epic clan wars, complete thrilling quests, and claim coveted bounties in a world of endless possibility",
+    url: "https://bugattipvp.vercel.app",
     siteName: "Bugatti PvP",
     images: [
       {
-        url: "https://images2.imgbox.com/96/e6/BTja0ggL_o.png",
-        width: 1920,
-        height: 1080,
+        url: "https://github.com/WarFiN123/docs-bugattipvp/blob/505521df7a471293a56aace242f40de80ad44ede/app/opengraph-image.png?raw=true",
+        width: 1200,
+        height: 630,
       },
     ],
-    locale: "en-US",
+    locale: "en_US",
     type: "website",
   },
   robots: {
@@ -44,8 +44,13 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "TranslucenceV2",
+    title: "Bugatti PvP",
     card: "summary_large_image",
+    description:
+      "Experience the ultimate Minecraft adventure on our public Origins SMP server! With a vast array of unique powers to choose from, including spiders, vampires, and more, you'll embark on a journey of growth, combat, and exploration. Engage in epic clan wars, complete thrilling quests, and claim coveted bounties in a world of endless possibility",
+    images: [
+      "https://github.com/WarFiN123/docs-bugattipvp/blob/505521df7a471293a56aace242f40de80ad44ede/app/opengraph-image.png?raw=true",
+    ],
   },
   icons: {
     shortcut: "/favicon.ico",
@@ -74,12 +79,11 @@ export default function RootLayout({
       >
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
-          enableSystem
+          defaultTheme="dark"
           disableTransitionOnChange
         >
           <Navbar />
-          <main className="sm:container mx-auto w-[85vw] h-auto">
+          <main>
             {children}
             <Analytics />
             <SpeedInsights />
