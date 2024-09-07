@@ -2,7 +2,7 @@ import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import { ImInfo } from "react-icons/im";
 import { SiKofi } from "react-icons/si";
-import { Images } from "lucide-react";
+import { Images, Box } from "lucide-react";
 
 export function Footer() {
   return (
@@ -33,6 +33,13 @@ export function Footer() {
 export function FooterButtons() {
   return (
     <>
+      <Link
+        href="http://buggatipvp.ddns.net:25575/"
+        className={buttonVariants({ variant: "outline", size: "sm" })}
+      >
+        <Box className="h-4 w-4 mr-2 text-green-600 fill-current" />
+        3D Map
+      </Link>
       <Link
         href="https://gallery-bugattipvp.vercel.app/"
         className={buttonVariants({ variant: "outline", size: "sm" })}
