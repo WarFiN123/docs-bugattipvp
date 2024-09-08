@@ -1,6 +1,5 @@
 import { SiDiscord } from "react-icons/si";
 import { Images } from "lucide-react";
-import Image from 'next/image'
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import Search from "./search";
@@ -65,15 +64,10 @@ export function Navbar() {
 export function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2.5">
-      <Image
+      <img
         alt="Logo"
         src="https://raw.githubusercontent.com/WarFiN123/docs-bugattipvp/main/app/Logo.webp"
-        style={
-          {
-            width: "12px",
-            height: "12px",
-          }
-        }
+        className="w-12 h-12 text-muted-foreground fill-current"
       />
       <h2 className="text-md font-bold">Bugatti PvP</h2>
     </Link>
