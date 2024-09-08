@@ -10,4 +10,4 @@ We welcome contributions to the documentation. If you have any suggestions or wa
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the CCO 1.0 UNIVERSAL License - see the [LICENSE](LICENSE) file for details
