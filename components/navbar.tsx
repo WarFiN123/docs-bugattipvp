@@ -65,7 +65,7 @@ export function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2.5">
       <img
-        src="https://github.com/WarFiN123/docs-bugattipvp/blob/950dfa7d9809056683eb8b1486395b7e7230ef26/app/Logo.webp?raw=true"
+        src="https://raw.githubusercontent.com/WarFiN123/docs-bugattipvp/main/app/Logo.webp"
         className="w-12 h-12 text-muted-foreground fill-current"
         alt="Logo"
       />
