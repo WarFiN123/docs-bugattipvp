@@ -41,7 +41,7 @@ export function FooterButtons() {
         3D Map
       </Link>
       <Link
-        href="https://gallery-bugattipvp.vercel.app/"
+        href="https://gallery.bugattipvp.net/"
         className={buttonVariants({ variant: "outline", size: "sm" })}
       >
         <Images className="h-4 w-4 mr-2 text-yellow-600 fill-current" />
