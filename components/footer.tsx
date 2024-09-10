@@ -34,7 +34,7 @@ export function FooterButtons() {
   return (
     <>
       <Link
-        href="http://buggatipvp.ddns.net:25575/"
+        href="http://play.bugattipvp.net:25575/"
         className={buttonVariants({ variant: "outline", size: "sm" })}
       >
         <Box className="h-4 w-4 mr-2 text-green-600 fill-current" />
