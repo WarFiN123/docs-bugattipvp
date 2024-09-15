@@ -45,7 +45,9 @@ export function SheetLeftbar() {
             <Menu isSheet />
           </div>
           <div className="p-6 pb-4 flex gap-2">
-            <FooterButtons />
+            <ScrollArea>
+              <FooterButtons />
+            </ScrollArea>
           </div>
         </ScrollArea>
       </SheetContent>
