@@ -9,6 +9,8 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
+<meta name="google-site-verification" content="ux7si5I-tWBpNmmcbJzAcrpJYZErOzd00z1HXZTUBdY" />
+
 export const metadata: Metadata = {
   title: {
     default: "Bugatti PvP",
