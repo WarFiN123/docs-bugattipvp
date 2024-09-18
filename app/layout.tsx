@@ -12,7 +12,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: {
     default: "Bugatti PvP",
-    template: "Bugatti PvP - %s",
+    template: "Bugatti PvP | %s",
   },
   description:
     "Experience the ultimate Minecraft adventure on our public Origins SMP server! With a vast array of unique powers to choose from, including spiders, vampires, and more, you'll embark on a journey of growth, combat, and exploration. Engage in epic clan wars, complete thrilling quests, and claim coveted bounties in a world of endless possibility",
