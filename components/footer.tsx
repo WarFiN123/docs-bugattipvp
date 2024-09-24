@@ -16,7 +16,7 @@ export function Footer() {
               className="px-1 underline underline-offset-2"
               href="https://github.com/warfin123/docs-bugattipvp"
             >
-            GitHub
+              GitHub
             </Link>
           </p>
         </div>
