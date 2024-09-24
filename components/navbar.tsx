@@ -1,3 +1,4 @@
+import { ModeToggle } from "@/components/theme-toggle";
 import { SiDiscord } from "react-icons/si";
 import { Images } from "lucide-react";
 import Link from "next/link";
@@ -53,6 +54,7 @@ export function Navbar() {
               >
                 <SiDiscord className="h-[1.1rem] w-[1.1rem]" />
               </Link>
+              <ModeToggle />
             </div>
           </div>
         </div>
@@ -67,7 +69,7 @@ export function Logo() {
       <img
         alt="Logo"
         src="https://raw.githubusercontent.com/WarFiN123/docs-bugattipvp/main/app/Logo.webp"
-        className="w-12 h-12 text-muted-foreground fill-current"
+        className="w-8 h-8 text-muted-foreground fill-current"
       />
       <h2 className="text-md font-bold">Bugatti PvP</h2>
     </Link>
