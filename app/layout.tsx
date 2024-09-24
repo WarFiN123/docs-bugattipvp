@@ -57,9 +57,9 @@ export const metadata: Metadata = {
   },
 };
 
-const Heroeau = LocalFont({
-  src: "../public/fonts/Heroeau.ttf",
-  variable: "--font-heroeau",
+const BrunoAce = LocalFont({
+  src: "../public/fonts/BrunoAce.ttf",
+  variable: "--font-brunoAce",
 });
 
 export default function RootLayout({
@@ -71,7 +71,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={[Heroeau.variable].join(" ")}
+      className={[BrunoAce.variable].join(" ")}
     >
       <body
         className={`${GeistSans.variable} ${GeistMono.variable} font-regular`}
