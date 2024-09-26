@@ -15,12 +15,12 @@ export const metadata: Metadata = {
     template: "Bugatti PvP | %s",
   },
   description:
-    "Experience the ultimate Minecraft adventure on our public Origins SMP server! With a vast array of unique powers to choose from, including spiders, vampires, and more, you'll embark on a journey of growth, combat, and exploration. Engage in epic clan wars, complete thrilling quests, and claim coveted bounties in a world of endless possibility",
+    "Explore our public Origins SMP server, with unique powers and endless adventure!",
   openGraph: {
     title: "Bugatti PvP",
     description:
-      "Experience the ultimate Minecraft adventure on our public Origins SMP server! With a vast array of unique powers to choose from, including spiders, vampires, and more, you'll embark on a journey of growth, combat, and exploration. Engage in epic clan wars, complete thrilling quests, and claim coveted bounties in a world of endless possibility",
-    url: "https://bugattipvp.net",
+      "Explore our public Origins SMP server, with unique powers and endless adventure!",
+    url: "https://www.bugattipvp.net",
     siteName: "Bugatti PvP",
     images: [
       {
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title: "Bugatti PvP",
     card: "summary_large_image",
     description:
-      "Experience the ultimate Minecraft adventure on our public Origins SMP server! With a vast array of unique powers to choose from, including spiders, vampires, and more, you'll embark on a journey of growth, combat, and exploration. Engage in epic clan wars, complete thrilling quests, and claim coveted bounties in a world of endless possibility",
+      "Explore our public Origins SMP server, with unique powers and endless adventure!",
     images: [
       "https://github.com/WarFiN123/docs-bugattipvp/blob/505521df7a471293a56aace242f40de80ad44ede/app/opengraph-image.png?raw=true",
     ],
