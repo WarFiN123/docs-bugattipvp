@@ -33,7 +33,7 @@ export function FooterButtons() {
   return (
     <>
       <Link
-        href="http://3d.bugattipvp.net"
+        href="https://3d.bugattipvp.net"
         className={buttonVariants({ variant: "outline", size: "sm" })}
       >
         <Box className="h-4 w-4 mr-2 text-green-600 fill-current" />
