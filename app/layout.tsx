@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description:
       "Explore our public Origins SMP server, with unique powers and endless adventure!",
     url: "https://www.bugattipvp.net",
-    siteName: "Bugatti PvP",
+    siteName: "bugattipvp.net",
     images: [
       {
         url: "https://github.com/WarFiN123/docs-bugattipvp/blob/main/app/opengraph-image.png?raw=true",
