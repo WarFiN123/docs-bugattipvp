@@ -1,8 +1,6 @@
 import { buttonVariants } from "@/components/ui/button";
 import { page_routes } from "@/lib/routes-config";
-import { Heart } from "lucide-react";
-import { BsBoxFill } from "react-icons/bs";
-import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+import { Heart, SquareArrowOutUpRight, Box } from "lucide-react";
 import Link from "next/link";
 import Particles from "@/components/particles";
 
@@ -20,7 +18,7 @@ export default function Home() {
           className="mb-5 sm:text-lg flex items-center gap-2 underline underline-offset-4"
         >
           Follow along on GitHub{" "}
-          <FaArrowUpRightFromSquare className="w-4 h-4 font-extrabold" />
+          <SquareArrowOutUpRight className="w-4 h-4 font-extrabold " />
         </Link>
         <h1 className="text-3xl font-bold mb-4 sm:text-7xl font-display">
           Bugatti
@@ -32,7 +30,7 @@ export default function Home() {
           Explore our public Origins SMP server, with unique powers and endless
           adventure!
           <br />
-          <BsBoxFill
+          <Box
             size={20}
             style={{ verticalAlign: "middle", display: "inline-flex" }}
           />

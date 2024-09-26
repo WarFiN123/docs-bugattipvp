@@ -1,15 +1,14 @@
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
-import { ImInfo } from "react-icons/im";
 import { SiKofi } from "react-icons/si";
-import { Images, Box } from "lucide-react";
+import { Images, Box, Info } from "lucide-react";
 
 export function Footer() {
   return (
     <footer className="border-t w-full h-16">
       <div className="container flex items-center sm:justify-between justify-center sm:gap-0 gap-4 h-full text-muted-foreground text-sm flex-wrap sm:py-0 py-3">
         <div className="flex items-center gap-3">
-          <ImInfo className="sm:block hidden w-5 h-5 text-muted-foreground fill-current" />
+          <Info className="sm:block hidden w-5 h-5 text-muted-foreground" />
           <p className="text-center">
             The source code is available on{""}
             <Link
