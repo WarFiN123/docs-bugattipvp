@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "Bugatti PvP",
     images: [
       {
-        url: "https://github.com/WarFiN123/docs-bugattipvp/blob/505521df7a471293a56aace242f40de80ad44ede/app/opengraph-image.png?raw=true",
+        url: "https://github.com/WarFiN123/docs-bugattipvp/blob/main/app/opengraph-image.png?raw=true",
         width: 1200,
         height: 630,
       },
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     description:
       "Explore our public Origins SMP server, with unique powers and endless adventure!",
     images: [
-      "https://github.com/WarFiN123/docs-bugattipvp/blob/505521df7a471293a56aace242f40de80ad44ede/app/opengraph-image.png?raw=true",
+      "https://github.com/WarFiN123/docs-bugattipvp/blob/main/app/opengraph-image.png?raw=true",
     ],
   },
   icons: {
