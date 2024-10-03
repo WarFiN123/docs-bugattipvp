@@ -68,7 +68,7 @@ export function Logo() {
     <Link href="/" className="flex items-center gap-2.5">
       <img
         alt="Logo"
-        src="https://github.com/WarFiN123/docs-bugattipvp/blob/2af687c6655c118fc056eb4c208bb6aa3fa5e47f/app/Logo-removebg.png?raw=true"
+        src="https://github.com/WarFiN123/docs-bugattipvp/blob/main/app/Logo-removebg.png?raw=true"
         className="w-8 h-8 text-muted-foreground fill-current"
       />
       <h2 className="text-md font-bold">Bugatti PvP</h2>
