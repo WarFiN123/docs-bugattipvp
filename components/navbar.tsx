@@ -42,6 +42,7 @@ export function Navbar() {
                   variant: "ghost",
                   size: "icon",
                 })}
+                aria-label="Gallery"
               >
                 <Images className="h-[1.1rem] w-[1.1rem] fill-current" />
               </Link>
@@ -51,6 +52,7 @@ export function Navbar() {
                   variant: "ghost",
                   size: "icon",
                 })}
+                aria-label="Discord"
               >
                 <SiDiscord className="h-[1.1rem] w-[1.1rem]" />
               </Link>
