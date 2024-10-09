@@ -1,6 +1,6 @@
 import { buttonVariants } from "@/components/ui/button";
 import { page_routes } from "@/lib/routes-config";
-import { Heart, SquareArrowOutUpRight, Box } from "lucide-react";
+import { Heart, SquareArrowOutUpRight } from "lucide-react";
 import Link from "next/link";
 import Particles from "@/components/particles";
 
