@@ -61,7 +61,7 @@ const config = {
       fontFamily: {
         code: ["var(--font-geist-mono)"],
         regular: ["var(--font-geist-sans)"],
-        display: ["var(--font-brunoAce)"],
+        display: ["var(--font-against)"],
       },
       keyframes: {
         "accordion-down": {
