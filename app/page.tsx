@@ -20,20 +20,13 @@ export default function Home() {
           Follow along on GitHub{" "}
           <SquareArrowOutUpRight className="w-4 h-4 font-extrabold " />
         </Link>
-        <h1 className="text-3xl font-bold mb-4 sm:text-7xl font-display">
-          Bugatti
-        </h1>
-        <h1 className="text-3xl font-bold mb-4 sm:text-7xl font-display">
-          PvP
+        <h1 className="text-5xl font-bold mb-4 sm:text-7xl font-display">
+          Bugatti PvP
         </h1>
         <p className="mb-8 sm:text-xl max-w-[400px] text-muted-foreground text">
           Explore our public Origins SMP server, with unique powers and endless
           adventure!
           <br />
-          <Box
-            size={20}
-            style={{ verticalAlign: "middle", display: "inline-flex" }}
-          />
         </p>
         <div className="flex flex-row items-center gap-5">
           <Link
