@@ -58,9 +58,9 @@ export const metadata: Metadata = {
   },
 };
 
-const BrunoAce = LocalFont({
-  src: "../public/fonts/BrunoAce.ttf",
-  variable: "--font-brunoAce",
+const Against = LocalFont({
+  src: "../public/fonts/Against.ttf",
+  variable: "--font-against",
 });
 
 export default function RootLayout({
@@ -72,7 +72,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={[BrunoAce.variable].join(" ")}
+      className={[Against.variable].join(" ")}
     >
       <body
         className={`${GeistSans.variable} ${GeistMono.variable} font-regular`}
