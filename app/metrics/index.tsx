@@ -1,5 +1,11 @@
-import MicrosoftClarity from "./MicrosoftClarity";
+import GoogleAnalytics from "./GoogleAnalytics"
+import MicrosoftClarity from "./MicrosoftClarity"
 
-const Metrics = () => <MicrosoftClarity />;
+const Metrics = () => (
+    <>
+        <GoogleAnalytics />
+        <MicrosoftClarity />
+    </>
+)
 
-export default Metrics;
+export default Metrics
