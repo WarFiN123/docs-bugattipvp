@@ -37,7 +37,7 @@ export function Navbar() {
             <Search />
             <div className="flex">
               <Link
-                href="https://gallery-bugattipvp.vercel.app"
+                href="https://gallery.bugattipvp.net"
                 className={buttonVariants({
                   variant: "ghost",
                   size: "icon",
