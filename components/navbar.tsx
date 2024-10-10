@@ -14,6 +14,14 @@ export const NAVLINKS = [
     title: "Documentation",
     href: `/docs/${page_routes[0].href}`,
   },
+  {
+    title: "Gallery",
+    href: 'https://gallery.bugattipvp.net/",
+  },
+  {
+    title: "3D Map",
+    href: 'https://3d.bugattipvp.net/',
+  }
 ];
 
 export function Navbar() {
