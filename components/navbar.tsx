@@ -16,7 +16,7 @@ export const NAVLINKS = [
   },
   {
     title: "Gallery",
-    href: 'https://gallery.bugattipvp.net/",
+    href: 'https://gallery.bugattipvp.net/',
   },
   {
     title: "3D Map",
