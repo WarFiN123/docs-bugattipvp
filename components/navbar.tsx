@@ -45,16 +45,6 @@ export function Navbar() {
             <Search />
             <div className="flex">
               <Link
-                href="https://gallery.bugattipvp.net"
-                className={buttonVariants({
-                  variant: "ghost",
-                  size: "icon",
-                })}
-                aria-label="Gallery"
-              >
-                <Images className="h-[1.1rem] w-[1.1rem] fill-current" />
-              </Link>
-              <Link
                 href="https://discord.gg/ZewyUmtVSS"
                 className={buttonVariants({
                   variant: "ghost",
