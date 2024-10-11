@@ -14,6 +14,14 @@ export const NAVLINKS = [
     title: "Documentation",
     href: `/docs/${page_routes[0].href}`,
   },
+  {
+    title: "Gallery",
+    href: 'https://gallery.bugattipvp.net/',
+  },
+  {
+    title: "3D Map",
+    href: 'https://3d.bugattipvp.net/',
+  }
 ];
 
 export function Navbar() {
@@ -36,16 +44,6 @@ export function Navbar() {
           <div className="flex items-center gap-2">
             <Search />
             <div className="flex">
-              <Link
-                href="https://gallery.bugattipvp.net"
-                className={buttonVariants({
-                  variant: "ghost",
-                  size: "icon",
-                })}
-                aria-label="Gallery"
-              >
-                <Images className="h-[1.1rem] w-[1.1rem] fill-current" />
-              </Link>
               <Link
                 href="https://discord.gg/ZewyUmtVSS"
                 className={buttonVariants({
@@ -85,7 +83,7 @@ export function NavMenu({ isSheet = false }) {
         const Comp = (
           <Anchor
             key={item.title + item.href}
-            activeClassName="text-black dark:text-white font-semibold"
+            activeClassName="text-black text-muted-foreground"
             absolute
             href={item.href}
           >
